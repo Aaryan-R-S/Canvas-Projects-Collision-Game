@@ -1,0 +1,15 @@
+Game Checklist:
+    ✔ Create a Player @done (15/11/2020, 11:26:41 am)
+    ✔ Shoot Projectiles @done (15/11/2020, 12:08:16 pm)
+    ✔ Create Enemies @done (15/11/2020, 12:41:06 pm)
+    ✔ Detect collision on Enemy / Projectile hit @done (15/11/2020, 12:54:11 pm)
+    ✔ Detect collision on Enemy / Player hit @done (15/11/2020, 1:16:12 pm)
+    ✔ Remove off screen Projectiles @done (15/11/2020, 1:16:14 pm)
+    ✔ Colorize Game @done (15/11/2020, 2:02:27 pm)
+    ✔ Shrink the Enemies on hit @done (15/11/2020, 2:43:02 pm)
+    ✔ Create particle explosion on hit @done (15/11/2020, 2:43:10 pm)
+    ✔ Add Score @done (15/11/2020, 3:16:46 pm)
+    ✔ Add Start Game Button @done (15/11/2020, 3:49:19 pm)
+    ✔ Add Game over UI @done (15/11/2020, 4:10:13 pm)
+    ✔ Add Restart Button @done (15/11/2020, 4:10:15 pm)
+    

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collision | Unity</title>
+    <link rel="icon" href="game.png">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            user-select: none;
+            background-color: black;
+        }
+        #div1{
+            position: fixed;
+            display: none;
+            top: 10px;
+            left: 20px;
+            color: white;
+            user-select: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #div2{
+            font-family: verdana;
+            position: fixed;
+            z-index: 1;
+            /* display: none; */
+            background-color: rgb(207, 207, 207);
+            height: auto;
+            width: 40vw;
+            top: 25vh;
+            left: 30vw;
+            text-align: center;
+            transition: background-color 0.3s;
+            border-radius: 10px;
+        }
+        #div2:hover{
+            background-color: gray;
+        }
+        button{
+            background-color:#0a91eb;
+            height: 40px;
+            width: 30vw;
+            outline: none;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color:#065dff ;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas></canvas>
+    <div id="div1"><span>Score : </span><span id="score">0</span></div>
+    <div id="div2">
+        <p id="gameOverScore" style="font-size: 40px; margin-bottom: 0; font-weight: bold;">Collision</p>
+        <p id="gameOverScoreText" style="margin-top: 0;">by Unity</p>
+        <div>
+            <button id="startGame">Start Game</button>
+        </div>
+        <br>
+        <span style="font-style: italic;">Shoot projectiles on Enemies by clicking on them!</span>
+        <br>
+        <br>
+        <br>
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</html>
