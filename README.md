@@ -5,10 +5,10 @@
     <img src="readme-images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Todo App</h3>
+  <h3 align="center">Collision Game</h3>
 
   <p align="center">
-    An awesome project to help in maintaining a Todo list!
+    An awesome game to make your mind stress-free!
     <br />
     <strong>Explore the docs »</strong>
     <br />
